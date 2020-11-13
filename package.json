@@ -1,9 +1,13 @@
 {
-  "name": "testextcommand",
+  "name": "extcommand",
 	"displayName": "TestExtCommand",
 	"description": "Test extension command api",
-	"publisher": "Duc Nguyen",
+	"publisher": "DukeNgn",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DukeNgn/Extension-Command.git"
+	},
 	"engines": {
 		"vscode": "^1.51.0"
 	},
