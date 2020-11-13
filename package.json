@@ -15,7 +15,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:testlextcommand.installPkg"
+        "onCommand:testextcommand.installPkg"
 	],
 	"main": "./out/extension.js",
 	"contributes": {

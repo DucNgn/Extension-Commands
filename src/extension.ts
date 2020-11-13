@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
 	const command = 'testextcommand.installPkg';
-	const defaultTestExtID = 'equinusocio.vsc-material-theme-icons';
+	const defaultTestExtID = 'Equinusocio.vsc-material-theme-icons';
 
 	const commandHandler = (ext: string = defaultTestExtID) => {
 		installExtension(ext);
